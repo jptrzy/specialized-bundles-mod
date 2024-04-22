@@ -1,0 +1,14 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "specialized_bundles:item/scroll_case"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "filled": 1e-7
+      },
+      "model": "specialized_bundles:item/scroll_case_filled"
+    }
+  ]
+}

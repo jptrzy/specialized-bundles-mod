@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "specialized_bundles",
+  "version": "${version}",
+
+  "name": "Specialized Bundles",
+  "description": "",
+  "authors": [
+    "jptrzy"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/specialized_bundles/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      {
+        "adapter": "kotlin",
+        "value": "xyz.jptrzy.specialized.bundles.SpecializedBundlesMod"
+      }
+    ]
+  },
+  "mixins": [
+    "specialized_bundles.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "~${minecraft_version}",
+    "java": ">=17",
+    "fabric-language-kotlin": ">=${fabric_kotlin_version}"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

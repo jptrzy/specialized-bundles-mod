@@ -1,0 +1,6 @@
+{
+  "parent": "item/bundle",
+  "textures": {
+    "layer0": "specialized_bundles:item/scroll_case_filled"
+  }
+}
